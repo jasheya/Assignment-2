@@ -27,7 +27,7 @@ header{
     padding-top: 70px;
     padding-bottom: 152px;
 }
-p{
+header p{
     margin-bottom: 50px;
 }
 .top-banner-image{
@@ -65,4 +65,36 @@ p{
     padding: 17px 39px 17px 39px;
     border-radius: 10px;
 }
+.match-video-box{
+    height: 362px;
+    width: 312px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}
+.match-info{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+button{
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100px;
+    height: 32px;
+}
+h4{
+    margin-bottom: 10px;
+}
+.footer{
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+}
+.footer p{
+    margin-right: 30px;
+}
+ 
 
