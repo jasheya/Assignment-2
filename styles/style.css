@@ -31,35 +31,38 @@ p{
     margin-bottom: 50px;
 }
 .top-banner-image{
-    border: 1px solid white;
     margin-top: 33px;
     margin-right: 79px;
     margin-left: 24px;
-    width: 581px;
-    height: 613px;
 }
 .button-style{
     padding: 16px 25px;
-    background-color: #ffe002;
+    background-color: #f9d100;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
     color: white;
-}
-.box-button{
+} 
+.button-box-bgstyle{
     background-color: black;
     height: 312px;
     width: 312px;
     margin-left: 140px;
-    padding: 30px;
     border-radius: 10px;
+} 
+.box-button-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 311px;
+    width: 252px;
+    margin: auto;
 }
-.button-1, .button-2, .button-3{
-    background-color: white;
-    height: 64px;
-    max-width: 252px;
-    margin-top: 30px;
+.button-individual-style{
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    padding: 17px 39px 17px 39px;
     border-radius: 10px;
-
 }
 
