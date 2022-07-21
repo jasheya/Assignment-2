@@ -7,6 +7,7 @@ body{
     .top-banner{
         display: flex;
         background: #161616;
+        color: white;
         border-radius: 30px;
         margin-top: 50px;
         margin-left: 140px;
@@ -14,12 +15,15 @@ body{
         width: 1042px;
         height: 596px;
     }
+    .top-banner:hover{
+        background-color: hsla(0, 0%, 9%, 0.438);
+        color: black;
+    }
     h1{
         font-size: 50px;
         font-weight: bolder
     }
     header{
-        color: white;
         width: 391px;
         height: 374px;
         padding-left: 106px;
@@ -29,10 +33,11 @@ body{
     header p{
         margin-bottom: 50px;
     }
-    .top-banner-image{
-        margin-top: 33px;
-        margin-right: 79px;
-        margin-left: 24px;
+    .top-banner-info{
+        padding: 30px 40px 90px 50px;
+    }
+     .top-banner-image{
+       margin: 40 4% 0% 10%;
     }
     .button-style{
         padding: 16px 25px;
@@ -72,6 +77,10 @@ second section styles
         padding: 12px 10px 12px 10px;
         border-radius: 10px;
         text-align: center;
+    }
+    .button-individual-style:hover{
+        background-color: #f9d100;
+        color: white;
     }
      .upcoming-match-box-holder{
         display: grid;
