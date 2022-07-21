@@ -73,9 +73,67 @@ second section styles
         border-radius: 10px;
         text-align: center;
     }
-    /* .upcoming-match-box-holder{
+     .upcoming-match-box-holder{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 24px;
         margin-left: 24px;
-    } */
+    } 
+    .upcoming-match-flag-box{
+       border: 1px solid  #e8e8e8;
+       border-radius: 10px;
+       width: 258px;
+       height: 212px;
+       padding: 0px;
+    }
+    .flag-thumbnail{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px 0px 20px;
+    }
+    .upcoming-match-flag-box p{
+        color: hsla(0, 0%, 30%, 1);
+        font-size: 16px;
+        text-align: center;
+    }
+    .hidden-button{
+        display: none;
+        background-color: #f9d100;
+        color: white;
+        text-decoration: none;
+        height: 47px;
+        width: 131px;
+        padding: 12px 29px;
+        margin-left: 635px;
+        border-radius: 5px;
+    
+    }
+    /* --------
+    last section style
+    -------------- */
+    .footer-style{ 
+        background-color: #161616;
+        margin: 0;
+        height: 345px;
+        padding-top: 70px;
+    }
+    .footer-style h2{
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+         margin-bottom: 30px;
+    }
+    .link-style{
+     margin-top: 40px;
+    text-align: center;
+    }
+    .footer-link{
+        color: hsla(0, 0%, 73%, 1);
+        text-decoration: none;
+        font-size: small;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    
