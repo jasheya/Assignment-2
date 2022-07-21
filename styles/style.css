@@ -151,7 +151,7 @@ text-align: center;
 /* --------
     moblie devices
 ----------------- */
-@media only screen and (max-width: 500px){
+@media only screen and (max-width:688px){
 .top-banner{
    width: 100%;
    display: block;
@@ -163,8 +163,7 @@ text-align: center;
 }
 .middle-part{
     display: block;
-}
-.button-box-bgstyle{
+}.button-box-bgstyle{
     background-color: white;
     margin-left: 80px;
 }
@@ -184,4 +183,34 @@ text-align: center;
     padding: 0px 0px 10px 0px;
 }
 }
+/* -------------
+tab devices
+--------------- */
+@media only screen and (min-width:768px) and (max-width:1024px){
+ .top-banner{
+    width: 100%;
+    margin: 5% 0% 13% 0%;
+ }
+ .middle-part{
+    display: block;
+}
+.button-box-bgstyle{
+    background-color: white;
+    margin-left: 300px;
+}
+.button-individual-style{
+  border: 1px solid hsla(0, 0%, 73%, 1);
+}
+.match-box-holder{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 110px;
+    gap: 30px;
+}
+.footer-link{
+    padding-left: 60px;
+    padding-right: 50px;
+}
+}
+
 
